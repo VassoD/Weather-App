@@ -1,0 +1,25 @@
+.content {
+    margin: 20px auto;
+    width: 800px;
+    text-align: center;
+    background-color: #6db64b;
+    border-radius: 10px;
+  }
+  
+  .weatherInfo>div {
+    padding: 5px 0px;
+  }
+  
+  .weatherInfo img {
+    background-color: #e5e5e5;
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+    border: 0px;
+    border-radius: 10px;
+  }
+  
+  img[src=""] {
+    content:url("data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==");
+    background-color: #f1f1f1
+  }
